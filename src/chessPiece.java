@@ -4,6 +4,7 @@ public interface chessPiece {
     public int xPos;
     public int yPos;
     public boolean alive;
+    public positionType pt;
 
 
     // Methods
