@@ -1,4 +1,5 @@
 public enum PositionType {
+    EMPTY,
     PAWN,
     KNIGHT,
     BISHOP,

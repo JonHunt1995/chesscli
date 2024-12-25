@@ -7,11 +7,11 @@ public interface chessPiece {
     public PositionType positionType;
     public Color color;
 
-
     // Methods
     public int getX();
     public int getY();
     public boolean validMove(int x, int y);
     public void range(int x, int y);
+    public void die();
 
 }
