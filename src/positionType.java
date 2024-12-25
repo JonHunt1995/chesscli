@@ -1,4 +1,4 @@
-public enum positionType {
+public enum PositionType {
     PAWN,
     KNIGHT,
     BISHOP,
