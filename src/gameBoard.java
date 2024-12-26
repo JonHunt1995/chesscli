@@ -4,6 +4,7 @@ public class gameBoard {
         this.resetBoard();
     }
     // Attributes
+    private int turnNumber = 0;
     private char[][] board = new Empty[8][8];
     private Color whoseTurn = Color.BLACK;
     private boolean draw = false;
@@ -11,16 +12,21 @@ public class gameBoard {
     private boolean checkMate = false;
     // Methods
     public void resetBoard() {
-
+        turnNumber = 0;
+        this.board = new char[8][8];
+        positionType[] whiteChessPieces = {}
     }
     public void printBoard() {
+        rowNumber = 8;
+        System.out.println(" ABCDEFGHI ");
         for (row : board) {
-            System.out.println("________");
-            System.out.print("|");
+            System.out.print(rowNumber);
             for (column : row) {
-                System.out.print(column + "|");
+                System.out.print(column.symbol);
             }
-            System.out.println("");
+            System.out.println(rowNumber);
+            rowNumber --;
+            System.out.println(" ABCDEFGHI ");
         }
     }
 }

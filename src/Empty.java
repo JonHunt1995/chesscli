@@ -12,10 +12,7 @@ public class Empty implements chessPiece {
         this.color = color;
         this.positionType = PositionType.EMPTY;
         this.alive = ;
-        if (color == Color.BLACK) {
-            this.symbol = "";
-        } else {
-            this.symbol = "";
+            this.symbol = '*';
         }
     }
     // Methods
